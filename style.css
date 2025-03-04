@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 
-/*navbar*/
+
 
 .header {
     position: fixed;
@@ -58,7 +58,6 @@ body {
     text-decoration: underline;
 }
 
-/*home*/
 
 .home {
     position: relative;
@@ -185,14 +184,12 @@ body {
     border-bottom-right-radius: 251px;
 }
 
-/*about*/
+
 
 .about {
     background-color: black;
     display: grid;
-    /* grid-template-columns: repeat(2, .5fr); */
-    /*align-items: center;*/
-    /*gap: 1.5rem;*/
+
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -207,7 +204,6 @@ body {
     background-size: cover;
     padding-right: 10%;
     margin-top: 2.5%;
-    /*margin-top: 7.5%;*/
     opacity: 1;
 }
 
@@ -217,7 +213,6 @@ body {
     max-width: 492px;
     max-height: 492px;
     border-radius: 90px;
-    /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
     border: #0ef 5px solid;
 }
 
@@ -268,7 +263,6 @@ body {
 }
 
 
-/* Skills */
 #Skills{
     background-color: #000;
 }
@@ -512,7 +506,6 @@ body {
     opacity: 0;
 }
 
-/*projects*/
 #Projects{
     background-color: #000;
 }
@@ -539,7 +532,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(259px, auto));
     align-items: center;
     justify-content: space-around;
-    /* column-gap: 50px; */
 }
 
 .row {
@@ -619,7 +611,6 @@ body {
     opacity: 1;
 }
 
-/* Service*/
 
 #Services{
     background-color: #000;
@@ -651,7 +642,6 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
     border: #0ef 5px solid;
 }
 
@@ -703,11 +693,9 @@ body {
 }
 
 
-/*contacts*/
 
 .contacts {
     display: grid;
-    /*grid-template-columns: repeat (2, 1fr);*/
     align-items: center;
     gap: 3rem;
     padding: 40px;
@@ -738,12 +726,7 @@ body {
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
+
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -948,7 +931,7 @@ body {
         overflow-x: hidden;
         overflow-y: inherit;
     }
-    /*navbar*/
+
     .header{
         display:block;
         
@@ -974,7 +957,6 @@ body {
         white-space: pre;
     }
 
-    /*home*/
     .home{
         align-items: normal;
         padding-top: 40%;
@@ -1015,7 +997,6 @@ body {
     .btn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
     }
-    /*about*/
     .about{
         padding-bottom: 20px;
         min-height: auto;
@@ -1039,7 +1020,6 @@ body {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
     }
 
-    /*skills*/
     .subtitle{
         font-size: 50px;
         text-align: center;
@@ -1072,7 +1052,6 @@ body {
         content: "50%";
     }
 
-    /*project*/
     .main-text {
         padding-top: 20px;
         margin-top: 10px;
@@ -1085,7 +1064,6 @@ body {
     .layer p {
         line-height: normal;
     }
-    /*service*/
     .sub-title {
         font-size: 50px;
         padding-bottom: 50px;
@@ -1093,7 +1071,6 @@ body {
     .prj-list div{
         padding: 20px;
     }
-    /*contact*/
     .contacts h2{
         font-size: 50px;
     }
@@ -1144,7 +1121,6 @@ body {
         white-space: pre;
     }
 
-    /*home*/
     .home{
         width: 100%;
         align-items: normal;
@@ -1184,7 +1160,6 @@ body {
         margin-right: 0;
     }
     
-    /*about*/
     .about{
         padding-bottom: 20px;
         min-height: auto;
@@ -1205,7 +1180,6 @@ body {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
     }
 
-    /*skills*/
     .subtitle{
         font-size: 50px;
         text-align: center;
@@ -1241,7 +1215,6 @@ body {
         content: "50%";
     }
 
-    /*project*/
     .main-text {
         padding-top: 20px;
         margin-top: 10px;
@@ -1255,13 +1228,11 @@ body {
         line-height: normal;
     }
 
-    /*service*/
     .sub-title {
         font-size: 50px;
         padding-bottom: 50px;
     }
 
-    /*contact*/
     .contacts h2{
         font-size: 50px;
     }

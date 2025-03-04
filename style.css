@@ -1252,6 +1252,7 @@ body {
         opacity: 0;
         transition: all .4s;
     }
+    
     .top i{
         color: #000;
     }

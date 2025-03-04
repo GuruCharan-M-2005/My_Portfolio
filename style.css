@@ -189,7 +189,6 @@ body {
 .about {
     background-color: black;
     display: grid;
-
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -961,18 +960,18 @@ body {
         align-items: normal;
         padding-top: 40%;
         padding-bottom: 0;
-        
+        min-height: 0;
     }
     .home-content{
         margin-left: 0;
     }
     .home-content h1 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
     }
     
     .home-content h3 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
     }
     
@@ -999,7 +998,7 @@ body {
     }
     .about{
         padding-bottom: 20px;
-        min-height: auto;
+        min-height: 0;
     }
     .about-text h2 {
         font-size: 30px;
@@ -1014,7 +1013,7 @@ body {
         text-align: left;
     }
     .about-text a{
-        margin-left: 100px;
+        margin: 30px 0 0 70px;
     }
     .abtbtn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
@@ -1077,6 +1076,9 @@ body {
     .contact-list i{
         font-size: 15px;
         padding: 5px 5px 0 0;
+    }
+    .heading1{
+        margin: 0 50px 20px 0;
     }
     
     .top{

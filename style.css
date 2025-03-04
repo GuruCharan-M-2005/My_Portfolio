@@ -75,6 +75,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    margin-left: 150px;
 }
 
 .home-content h1 {
@@ -189,13 +190,14 @@ body {
 .about {
     background-color: black;
     display: grid;
-    grid-template-columns: repeat(2, .5fr);
+    /* grid-template-columns: repeat(2, .5fr); */
     /*align-items: center;*/
     /*gap: 1.5rem;*/
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
     padding: 70px 5% 0;
+    text-align: center;
 }
 
 .about-img {
@@ -226,10 +228,16 @@ body {
 .about-text h2 {
     font-size: 60px;
     letter-spacing: 5px;
+    padding-bottom: 50px;
 }
 
 .about-text h2 span {
     color: #0ef;
+}
+
+.about-text a{
+    text-decoration: none;
+    margin-left: 35vw;
 }
 
 .about-text p {
@@ -361,15 +369,15 @@ body {
 }
 
 .progress-line.python span {
-    width: 75%;
+    width: 80%;
 }
 
 .progress-line.java span {
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line.cpls span {
-    width: 50%;
+    width: 70%;
 }
 
 .progress-line span::after {
@@ -394,15 +402,15 @@ body {
 }
 
 .progress-line.python span::after {
-    content: "75%";
+    content: "80%";
 }
 
 .progress-line.java span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line.cpls span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line span::before {
@@ -531,6 +539,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(259px, auto));
     align-items: center;
     justify-content: space-around;
+    /* column-gap: 50px; */
 }
 
 .row {
@@ -539,11 +548,12 @@ body {
     cursor: pointer;
     padding: 0px;
     overflow: hidden;
+
 }
 
 .row img {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     max-height: 300px;
     border-radius: 15px;
     display: block;
@@ -553,7 +563,7 @@ body {
 
 .layer {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     max-height: 300px;
     height: 0;
     opacity: 0;

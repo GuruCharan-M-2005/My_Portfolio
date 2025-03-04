@@ -979,6 +979,10 @@ body {
         align-items: normal;
         padding-top: 40%;
         padding-bottom: 0;
+        
+    }
+    .home-content{
+        margin-left: 0;
     }
     .home-content h1 {
         font-size: 40px;
@@ -1027,6 +1031,9 @@ body {
         letter-spacing: 1px;
         margin-bottom: 4rem;
         text-align: left;
+    }
+    .about-text a{
+        margin-left: 100px;
     }
     .abtbtn-box:hover {
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
